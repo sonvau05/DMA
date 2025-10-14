@@ -1,0 +1,36 @@
+2025-10-14 21:33:19.201 +07:00 [INF] Now listening on: https://localhost:7163
+2025-10-14 21:33:19.227 +07:00 [INF] Now listening on: http://localhost:5293
+2025-10-14 21:33:19.260 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 21:33:19.260 +07:00 [INF] Hosting environment: Development
+2025-10-14 21:33:19.261 +07:00 [INF] Content root path: C:\Users\LOQ\source\repos\NewsApi\NewsApi
+2025-10-14 21:33:20.914 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger - null null
+2025-10-14 21:33:21.029 +07:00 [INF] HTTP GET /swagger responded 301 in 2.1587 ms
+2025-10-14 21:33:21.035 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger - 301 0 null 123.987ms
+2025-10-14 21:33:21.038 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/index.html - null null
+2025-10-14 21:33:21.084 +07:00 [INF] HTTP GET /swagger/index.html responded 200 in 40.3641 ms
+2025-10-14 21:33:21.088 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/index.html - 200 null text/html;charset=utf-8 49.4621ms
+2025-10-14 21:33:21.102 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/swagger-ui.css - null null
+2025-10-14 21:33:21.103 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/index.js - null null
+2025-10-14 21:33:21.102 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/index.css - null null
+2025-10-14 21:33:21.114 +07:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.8389 ms
+2025-10-14 21:33:21.103 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 21:33:21.129 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/index.js - 200 null application/javascript;charset=utf-8 26.5097ms
+2025-10-14 21:33:21.102 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-14 21:33:21.145 +07:00 [INF] HTTP GET /swagger/index.css responded 200 in 16.8195 ms
+2025-10-14 21:33:21.103 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/swagger-ui-bundle.js - null null
+2025-10-14 21:33:21.153 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/index.css - 200 152 text/css 50.4731ms
+2025-10-14 21:33:21.166 +07:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 54.4627 ms
+2025-10-14 21:33:21.166 +07:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 20.4653 ms
+2025-10-14 21:33:21.153 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/_framework/aspnetcore-browser-refresh.js - 200 16499 application/javascript; charset=utf-8 50.6183ms
+2025-10-14 21:33:21.179 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/swagger-ui.css - 200 23647 text/css 77.0671ms
+2025-10-14 21:33:21.180 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 77.8439ms
+2025-10-14 21:33:21.188 +07:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 17.9175 ms
+2025-10-14 21:33:21.198 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 96.0495ms
+2025-10-14 21:33:21.215 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/_vs/browserLink - null null
+2025-10-14 21:33:21.268 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9535ms
+2025-10-14 21:33:21.410 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/v1/swagger.json - null null
+2025-10-14 21:33:21.421 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7163/swagger/favicon-32x32.png - null null
+2025-10-14 21:33:21.426 +07:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.3903 ms
+2025-10-14 21:33:21.427 +07:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.7866 ms
+2025-10-14 21:33:21.428 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/favicon-32x32.png - 200 628 image/png 7.3154ms
+2025-10-14 21:33:21.430 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7163/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.5908ms
