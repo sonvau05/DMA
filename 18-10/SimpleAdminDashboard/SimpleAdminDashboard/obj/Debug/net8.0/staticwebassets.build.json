@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "90PjXlHF+gv12FpbPdpT5EHb1IPkKvoSRyHrhp3zRuI=",
+  "Source": "SimpleAdminDashboard",
+  "BasePath": "_content/SimpleAdminDashboard",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SimpleAdminDashboard\\wwwroot",
+      "Source": "SimpleAdminDashboard",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\",
+      "BasePath": "_content/SimpleAdminDashboard",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\admin.html",
+      "SourceId": "SimpleAdminDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\",
+      "BasePath": "_content/SimpleAdminDashboard",
+      "RelativePath": "admin#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6bgueutye",
+      "Integrity": "oJKcXXH00x0/tSav8fgeJRI+zIVEECZLCWdDvoOA6IA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin.html"
+    },
+    {
+      "Identity": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\login.html",
+      "SourceId": "SimpleAdminDashboard",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\",
+      "BasePath": "_content/SimpleAdminDashboard",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ho23k921o8",
+      "Integrity": "rxcpgDovuVn8vfa4NADSbsnxn4hXqvmPe76fVPXPA1M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "admin.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oJKcXXH00x0/tSav8fgeJRI+zIVEECZLCWdDvoOA6IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 06:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oJKcXXH00x0/tSav8fgeJRI+zIVEECZLCWdDvoOA6IA="
+        }
+      ]
+    },
+    {
+      "Route": "admin.o6bgueutye.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oJKcXXH00x0/tSav8fgeJRI+zIVEECZLCWdDvoOA6IA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 06:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6bgueutye"
+        },
+        {
+          "Name": "label",
+          "Value": "admin.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oJKcXXH00x0/tSav8fgeJRI+zIVEECZLCWdDvoOA6IA="
+        }
+      ]
+    },
+    {
+      "Route": "login.ho23k921o8.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rxcpgDovuVn8vfa4NADSbsnxn4hXqvmPe76fVPXPA1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 06:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ho23k921o8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rxcpgDovuVn8vfa4NADSbsnxn4hXqvmPe76fVPXPA1M="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rxcpgDovuVn8vfa4NADSbsnxn4hXqvmPe76fVPXPA1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 06:11:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rxcpgDovuVn8vfa4NADSbsnxn4hXqvmPe76fVPXPA1M="
+        }
+      ]
+    }
+  ]
+}

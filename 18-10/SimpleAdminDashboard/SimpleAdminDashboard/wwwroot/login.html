@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Login</title></head>
+<body>
+<form id="f">
+  <input id="user" placeholder="user" value="admin" />
+  <input id="pass" placeholder="pass" value="1" />
+  <button type="submit">Login</button>
+</form>
+<script>
+const api = '/api/auth';
+const f = document.getElementById('f');
+f.addEventListener('submit', async e=>{
+  e.preventDefault();
+  const user=document.getElementById('user').value;
+  const pass=document.getElementById('pass').value;
+  const res = await fetch(api+'/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:user,password:pass})});
+  if(res.ok){
+    const j=await res.json();
+    localStorage.setItem('access',j.accessToken);
+    localStorage.setItem('refresh',j.refreshToken);
+    localStorage.setItem('exp',j.expiresAt);
+    location.href='/admin.html';
+  }else alert('Login fail');
+});
+</script>
+</body>
+</html>

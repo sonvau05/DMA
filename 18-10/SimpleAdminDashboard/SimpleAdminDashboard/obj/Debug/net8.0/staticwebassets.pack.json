@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\LOQ\\source\\repos\\SimpleAdminDashboard\\SimpleAdminDashboard\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SimpleAdminDashboard.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SimpleAdminDashboard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SimpleAdminDashboard.props",
+      "PackagePath": "build\\SimpleAdminDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SimpleAdminDashboard.props",
+      "PackagePath": "buildMultiTargeting\\SimpleAdminDashboard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SimpleAdminDashboard.props",
+      "PackagePath": "buildTransitive\\SimpleAdminDashboard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
