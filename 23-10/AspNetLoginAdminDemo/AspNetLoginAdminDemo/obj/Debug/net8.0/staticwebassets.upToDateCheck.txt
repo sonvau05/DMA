@@ -1,0 +1,2 @@
+wwwroot\admin.html
+wwwroot\login.html

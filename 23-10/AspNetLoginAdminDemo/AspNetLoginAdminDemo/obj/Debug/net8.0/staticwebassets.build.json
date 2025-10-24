@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "6SR1v3cG0ExqH5XTxomcWz0yCyji3VyY0/gVbMgE4X0=",
+  "Source": "AspNetLoginAdminDemo",
+  "BasePath": "_content/AspNetLoginAdminDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AspNetLoginAdminDemo\\wwwroot",
+      "Source": "AspNetLoginAdminDemo",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\",
+      "BasePath": "_content/AspNetLoginAdminDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\admin.html",
+      "SourceId": "AspNetLoginAdminDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\",
+      "BasePath": "_content/AspNetLoginAdminDemo",
+      "RelativePath": "admin#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vgcabr9bwb",
+      "Integrity": "YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin.html"
+    },
+    {
+      "Identity": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\login.html",
+      "SourceId": "AspNetLoginAdminDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\",
+      "BasePath": "_content/AspNetLoginAdminDemo",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n4m1i9q2uy",
+      "Integrity": "R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "admin.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 06:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k="
+        }
+      ]
+    },
+    {
+      "Route": "admin.vgcabr9bwb.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\admin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 06:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vgcabr9bwb"
+        },
+        {
+          "Name": "label",
+          "Value": "admin.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 06:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA="
+        }
+      ]
+    },
+    {
+      "Route": "login.n4m1i9q2uy.html",
+      "AssetFile": "C:\\Users\\LOQ\\source\\repos\\AspNetLoginAdminDemo\\AspNetLoginAdminDemo\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Oct 2025 06:35:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n4m1i9q2uy"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AspNetLoginAdminDemo/admin.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1253"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Oct 2025 06:35:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AspNetLoginAdminDemo/admin.vgcabr9bwb.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vgcabr9bwb"},{"Name":"integrity","Value":"sha256-YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k="},{"Name":"label","Value":"_content/AspNetLoginAdminDemo/admin.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1253"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022YRs/4Ac1fFmuC1mvEnzCnxQIlgsWDNqBKyIPYv4Jt0k=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Oct 2025 06:35:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AspNetLoginAdminDemo/login.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"967"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Oct 2025 06:35:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AspNetLoginAdminDemo/login.n4m1i9q2uy.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n4m1i9q2uy"},{"Name":"integrity","Value":"sha256-R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA="},{"Name":"label","Value":"_content/AspNetLoginAdminDemo/login.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"967"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022R1yoB84CvFxqZFnQxrSIx4BINYIo3I9jL0hg6tN1dKA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Oct 2025 06:35:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
