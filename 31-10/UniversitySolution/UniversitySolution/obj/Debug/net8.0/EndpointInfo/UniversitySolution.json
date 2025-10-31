@@ -1,0 +1,457 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "University API",
+    "description": "Simple CRUD API for Departments and Lecturers (EF Core, .NET 8)",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Departments": {
+      "get": {
+        "tags": [
+          "Departments"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Departments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Departments/{id}": {
+      "get": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Lecturers": {
+      "get": {
+        "tags": [
+          "Lecturers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lecturer"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lecturer"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Lecturer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Lecturers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lecturer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lecturer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Lecturer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Lecturers/{id}": {
+      "get": {
+        "tags": [
+          "Lecturers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Lecturer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Lecturers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Department": {
+        "type": "object",
+        "properties": {
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "departmentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dean": {
+            "type": "string",
+            "nullable": true
+          },
+          "lecturers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Lecturer"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Lecturer": {
+        "type": "object",
+        "properties": {
+          "lecturerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "degree": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "department": {
+            "$ref": "#/components/schemas/Department"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

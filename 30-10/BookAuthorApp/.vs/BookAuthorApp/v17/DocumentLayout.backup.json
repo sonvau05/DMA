@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|c:\\users\\loq\\source\\repos\\bookauthorapp\\bookauthorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|solutionrelative:bookauthorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|c:\\users\\loq\\source\\repos\\bookauthorapp\\bookauthorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|solutionrelative:bookauthorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|c:\\users\\loq\\source\\repos\\bookauthorapp\\bookauthorapp\\backend\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|solutionrelative:bookauthorapp\\backend\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|c:\\users\\loq\\source\\repos\\bookauthorapp\\bookauthorapp\\backend\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{940B32D8-ED17-4092-9102-E0B7959713F2}|BookAuthorApp\\BookAuthorApp.csproj|solutionrelative:bookauthorapp\\backend\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BookAuthorApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\appsettings.json",
+              "RelativeToolTip": "BookAuthorApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T15:17:14.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Backend\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookAuthorApp\\Backend\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Backend\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookAuthorApp\\Backend\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:16:46.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Backend\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "BookAuthorApp\\Backend\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Backend\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "BookAuthorApp\\Backend\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:15:14.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BookAuthorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\BookAuthorApp\\BookAuthorApp\\Program.cs*",
+              "RelativeToolTip": "BookAuthorApp\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:14:58.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
