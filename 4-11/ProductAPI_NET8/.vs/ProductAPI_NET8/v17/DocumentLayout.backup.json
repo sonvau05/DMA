@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\source\\repos\\ProductAPI_NET8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FFC20E-FC78-42EF-905E-D362B0A61359}|ProductAPI_NET8\\ProductAPI_NET8.csproj|c:\\users\\loq\\source\\repos\\productapi_net8\\productapi_net8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FFC20E-FC78-42EF-905E-D362B0A61359}|ProductAPI_NET8\\ProductAPI_NET8.csproj|solutionrelative:productapi_net8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FFC20E-FC78-42EF-905E-D362B0A61359}|ProductAPI_NET8\\ProductAPI_NET8.csproj|c:\\users\\loq\\source\\repos\\productapi_net8\\productapi_net8\\productapi_net8.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A6FFC20E-FC78-42EF-905E-D362B0A61359}|ProductAPI_NET8\\ProductAPI_NET8.csproj|solutionrelative:productapi_net8\\productapi_net8.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\ProductAPI_NET8\\ProductAPI_NET8\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI_NET8\\Program.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\ProductAPI_NET8\\ProductAPI_NET8\\Program.cs",
+              "RelativeToolTip": "ProductAPI_NET8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:17:32.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductAPI_NET8.http",
+              "DocumentMoniker": "C:\\Users\\LOQ\\source\\repos\\ProductAPI_NET8\\ProductAPI_NET8\\ProductAPI_NET8.http",
+              "RelativeDocumentMoniker": "ProductAPI_NET8\\ProductAPI_NET8.http",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\ProductAPI_NET8\\ProductAPI_NET8\\ProductAPI_NET8.http",
+              "RelativeToolTip": "ProductAPI_NET8\\ProductAPI_NET8.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-05T12:13:42.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
